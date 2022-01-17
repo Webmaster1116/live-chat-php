@@ -1,0 +1,126 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button,
+label {
+  font-family: "Poppins" !important;
+}
+#loginPage {
+  background-image: url("/images/map.png");
+  background-size: cover;
+  margin-top: 10vh;
+  height: 90vh;
+}
+.form-signin {
+  max-width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input {
+  height: 94px !important;
+  font-size: 20px !important;
+  padding: 20px 30px !important;
+  border-radius: 50px !important;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.account-wall {
+  margin-top: 8%;
+  padding: 40px 0px 20px 0px;
+  background-color: #fff;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  border-radius: 30px;
+}
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+#login {
+  width: 60%;
+  background-color: #000 !important;
+  font-size: 25px;
+  height: 97px;
+  border-radius: 50px;
+  border: none !important;
+}
+.login-title {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  background-color: #ead27c;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.profile-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.need-help {
+  margin-top: 10px;
+}
+.new-account {
+  display: block;
+  margin-top: 3em;
+  font-size: 20px;
+}
+.font {
+  font-family: Poppins;
+}
+.text-center {
+  text-align: center;
+}
+.input-title {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 300 !important;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.loading-gif {
+  filter: invert(1);
+}
+
